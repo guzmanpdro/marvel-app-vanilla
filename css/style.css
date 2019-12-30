@@ -1,0 +1,24 @@
+body {
+    background: #054E79;
+}
+
+.img-thumbnail {
+    width: 80%;
+    height: 80%;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: (5, 1fr);
+}
+
+.hero {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.title {
+    margin: 20px 0;
+    color: #ddd;
+}
