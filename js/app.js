@@ -12,7 +12,7 @@ const marvel = {
                     contentHTML += `
                         <div class="hero">
                             <a href="${urlHero}" target="_blank">
-                                <img src="${hero.thumbnail.path}.${hero.thumbnail.extension}" alt="${hero.name}" class="img-thumbnail">
+                                <img src="${hero.thumbnail.path}.${hero.thumbnail.extension}" alt="${hero.name}" class="img-thumbnail" loading="lazy">
                             </a>
                             <h3 class="title">${hero.name}</h3>
                         </div>`;
